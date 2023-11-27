@@ -59,8 +59,8 @@ max_date = day_df["dteday"].max()
 
 with st.sidebar:
     # Menambahkan logo 
-    #st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
-    st.image('bike.png')
+    st.image("https://github.com/dicodingacademy/assets/raw/main/logo.png")
+    #st.image('bike.png')
     
     # Mengambil start_date & end_date dari date_input sebagai tuple
     date_range = st.date_input(
